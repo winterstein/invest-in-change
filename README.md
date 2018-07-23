@@ -1,2 +1,8 @@
-# invest-in-change
-Website to support investing in positive-impact companies that do good for the world.
+
+# Good-Loop Documentation Wiki
+
+Welcome to the Good-Loop documentation wiki. 
+This area is for editors. 
+The docs are best viewed here: <https://doc.good-loop.com>
+
+You can also contact our support team: support@sodash.com.
