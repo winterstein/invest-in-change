@@ -1,0 +1,150 @@
+/* ------------------------------------------------
+  Project:   Hortech - Responsive HTML5 Template
+  Build:     Bootstrap 4.0.0
+  Author:    ThemeHt
+------------------------------------------------ */
+
+
+/* ------------------------
+    Responsive Css
+------------------------*/
+@media (max-width: 1200px){
+h4 {font-size: 18px; line-height: 22px;}
+.banner-2::after{right: -40%;}
+}
+
+@media (max-width: 992px){
+h1{font-size: 50px; line-height: 50px;}
+h2{font-size: 40px; line-height: 50px;}
+h3 {font-size: 22px; line-height: 30px;}
+h4 {font-size: 16px; line-height: 22px;}
+
+/*Header*/
+.site-header + .fullscreen-banner {margin-bottom: -75px; top: -75px;}
+.logo img {height: 45px;}
+#header-wrap.fixed-header .logo img {height: 40px;}
+
+/*Navigation*/
+.navbar-nav li {margin: 0 8px;}
+.navbar-nav .nav-link {font-size: 12px;}
+.navbar-nav .nav-link::before, .navbar-nav .nav-item .nav-link.active::before{left: -12px;}
+
+/*Section*/
+.section-title, .price-table {margin-bottom: 30px;}
+.banner-2::after{display: none;}
+
+/*About*/
+.about-desc { top: inherit; transform: inherit; position: inherit;}
+.about-1 {padding: 200px 0;}
+
+/*Portfolio*/
+.grid.columns-3 .grid-item{width: 50%;}
+
+/*Client logo*/
+.client-logo .owl-carousel .owl-nav{display: none;}
+
+/*Side Background*/
+.side-background{display: none;}
+
+/*Sidebar*/
+.sidebar{margin-top: 30px;}
+
+/*Contact Us*/
+iframe {height: 320px;}
+.contact-box {padding: 30px;}
+.contact-info {padding: 20px;}
+.hidden-md{display: none;}
+}
+
+@media (max-width: 767px){
+h1{font-size: 40px; line-height: 40px;}
+h2{font-size: 30px; line-height: 40px;}
+
+/*Header*/
+.site-header + .fullscreen-banner {margin-bottom: -60px; top: -60px;}
+#header-wrap{padding: 10px 0;}
+.logo {position: absolute; z-index: 99;}
+.logo img{width: 120px;}
+
+/*Navigation*/
+.navbar {justify-content: flex-end; text-align: left !important;}
+.navbar-toggler {background: #7ece36; border-radius: 5px; margin-top: 5px;}
+.navbar-toggler-icon{height: inherit; width: inherit;}
+.navbar-toggler-icon:before{content: ""; font-family: "themify"; font-style: normal; font-weight: normal; text-decoration: inherit;
+color: #ffffff; font-size: 21px;}
+#header-wrap.fixed-header .navbar-toggler{margin-top: 0;}
+.navbar-collapse{position: absolute; left: 0; width: 100%; background: #ffffff; border: none; padding: 0; top: 50px;}
+.navbar-nav .nav-item{margin: 0 0 1px;}
+.navbar-nav .nav-item a{font-size: 14px; padding: 10px 15px 10px 30px !important; color: #151515}
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:focus, .navbar-nav .nav-item a:hover{color: #ffffff; background: #7ece36;}
+.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{background: #ffffff !important; color: #7ece36 !important;}
+.navbar-nav .nav-link::before, .navbar-nav .nav-item .nav-link.active::before{left: 10px;}
+
+/*Banner*/
+.btn {font-size: 13px; padding: 10px 25px;}
+.banner-content p{margin: 15px 0 !important; font-size: 12px; line-height: 20px;}
+.scroll-down{bottom: 30px;}
+
+/*Progress Bar*/
+.ht-progress {margin: 60px 0 20px;}
+
+/*Counter*/
+.counter{margin: 15px 0;}
+.counter span{font-size: 40px; line-height: 50px;}
+
+/*Portfolio*/
+.grid.columns-3 .grid-item {width: 100%;}
+.portfolio-filter button {font-size: 13px; padding: 10px 11px;}
+
+/*Testimonial*/
+.testimonial-content {font-size: 16px; line-height: 28px;}
+#testimonial .owl-nav{display: none;}
+.testimonial-content p {line-height: 30px; padding-left: 30px;}
+
+/*Blog*/
+.post{margin-bottom: 30px;}
+
+/*Contact Us*/
+.contact {padding: 30px;}
+.video-sec{margin-bottom: 30px;}
+}
+
+@media (max-width: 576px){
+.col-xx-12{width: 100% !important;}
+h1{font-size: 32px; line-height: 36px;}
+h2{font-size: 24px; line-height: 28px;}
+
+.xs-mt-3{margin-top: 30px;}
+.xs-pb-0{padding-bottom: 0 !important;}
+
+/*Header*/
+.top-bar + .site-header + .fullscreen-banner {margin-bottom: -133px; top: -133px;}
+
+/*Banner*/
+.banner-content p br{display: none;}
+.btn {padding: 10px 20px;}
+.btn + .btn {margin-left: 10px;}
+
+/*About*/
+.about-1 {padding: 150px 0;}
+
+/*Counter*/
+.counter span{font-size: 30px; line-height: 40px;}
+
+/*Portfolio*/
+.portfolio-filter{width: 80%;}
+.portfolio-filter button {display: block; float: none; width: 100%; font-size: 14px;}
+.portfolio-filter button:before{display: none;}
+
+.card-header h5{font-size: 14px;}
+
+/*Featured Box*/
+.featured-item{margin-bottom: 30px !important}
+
+/*Blog*/
+.media-holder{padding: 10px;}
+.media-holder .media {display: block;}
+.media-holder .media img{margin: 0 0 20px 0 !important}
+.media-body p{font-size: 12px; line-height: 20px;}
+.media-body p br{display: none;}
+}

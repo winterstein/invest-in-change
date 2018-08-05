@@ -1,0 +1,102 @@
+/* ------------------------------------------------
+  Project:   Hortech - Responsive HTML5 Template
+  Build:     Bootstrap 4.0.0
+  Author:    ThemeHt
+------------------------------------------------ */
+/* ------------------------
+    Table of Contents
+
+  1. General
+  2. Transition
+  3. Transform
+  4. Box Shadow
+  5. Preloader
+  6. Row Eq Height
+  7. Background Overlay
+  8. Scroll Top
+  8. scroll Down
+
+ 
+/* ------------------------
+    General
+------------------------*/
+a:focus { text-decoration: none !important; }
+a:focus, a:hover { color: #7ece36; text-decoration: none !important; }
+a, button, input { outline: medium none !important; color: #7ece36; }
+
+*::-moz-selection { background: #7ece36; color: #fff; text-shadow: none; }
+::-moz-selection { background: #7ece36; color: #fff; text-shadow: none; }
+::selection { background: #7ece36; color: #fff; text-shadow: none; }
+
+/* ------------------------
+    Transition
+------------------------*/
+a, .btn, .owl-item, img, span, .featured-item, .portfolio-filter button, .team-hover, .team-social, .price-table, .price-table:hover .price-value,
+.team-member, .team-social, .portfolio-item a.popup, .team-title, .post .post-desk{-webkit-transition: all 0.5s ease-in-out 0s; -moz-transition: all 0.5s ease-in-out 0s; -ms-transition: all 0.5s ease-in-out 0s; -o-transition: all 0.5s ease-in-out 0s; transition: all 0.5s ease-in-out 0s; }
+
+/* ------------------------
+    Transform translate
+------------------------*/
+
+/*--translate-X--*/
+.testimonial-content p:before, .app-screen-image, #ajaxloader {transform: translateX(-50%); -webkit-transform: translateX(-50%); -o-transform: translateX(-50%); -ms-transform: translateX(-50%); -moz-transform: translateX(-50%);}
+
+/*--translate-Y--*/
+.clear-loader, .navbar-nav .nav-link::before, .navbar-nav .nav-item .nav-link.active::before, .banner-content, .about-desc, .portfolio-filter button:before,
+.portfolio-title, #accordion .card-header a span:after, #accordion .card-header a span:before, #accordion .card-header a span, .price-value{transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%);}
+
+/*--translate-XY--*/
+.clear-loader, .video-btn-pos, .sub-banner h1:before, .sub-banner h1:after{transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%);}
+
+/* ------------------------
+    Box Shadow
+------------------------*/
+#header-wrap.fixed-header, .about-desc, .featured-item, .featured-item.style-2:hover, .portfolio-filter, .price-table:hover .price-value,
+.price-table:hover, .post, .box-shadow, .left-sidebar, .contact-box, .contact-info{-webkit-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); -moz-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2); box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);}
+
+/* ------------------------
+    Pre Loader
+------------------------*/
+#ht-preloader {background: #ffffff; bottom: 0; height: 100%; left: 0; overflow: hidden !important; position: fixed; right: 0; text-align: center; top: 0; width: 100%; z-index: 99999;}
+.clear-loader {z-index: 999; box-sizing: border-box; display: inline-block; left: 50%; position: absolute; text-align: center; top: 50%;}
+
+/* ------------------------
+    Row Eq Height
+------------------------*/
+.row-eq-height{ display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex;}
+.row-eq-height > [class*='col-'] > div{height: 100%;}
+
+/* ------------------------
+    Background Overlay
+------------------------*/
+[data-overlay] {position:relative; z-index:0;}
+[data-overlay]:before {  position: absolute;  content: '';  background: #000000;  width: 100%;  height: 100%;  top: 0;  left: 0; z-index:-1;}
+[data-overlay].white-overlay:before{background:#fff;}
+[data-overlay="1"]:before{opacity:0.1;}
+[data-overlay="2"]:before{opacity:0.2;}
+[data-overlay="3"]:before{opacity:0.3;}
+[data-overlay="4"]:before{opacity:0.4;}
+[data-overlay="5"]:before{opacity:0.5;}
+[data-overlay="6"]:before{opacity:0.6;}
+[data-overlay="7"]:before{opacity:0.7;}
+[data-overlay="8"]:before{opacity:0.8;}
+[data-overlay="9"]:before{opacity:0.9;}
+[data-overlay="10"]:before{opacity:1;}
+[data-overlay="0"]:before{opacity:0;}
+
+/* ------------------------
+    Scroll to Top
+------------------------*/
+#scroll-top .top{z-index: 999; position:fixed; margin:0px; background:#7ece36; border: 2px solid #ffffff; border-radius: 5px; -webkit-transition:all .3s ease-in-out; -moz-transition:all .3s ease-in-out; transition:all .3s ease-in-out; position:fixed; bottom:65px; right:25px; z-index: 999; font-size:22px; color: #ffffff; width:50px; height:50px; text-align:center; line-height:50px;}
+#scroll-top .top:hover{background: #ffffff; border: 2px solid #7ece36; color: #7ece36}
+
+/* ------------------------
+    Scroll Down
+------------------------*/
+.scroll-down {bottom: 60px; cursor: pointer; display: block; left: 0; margin: auto; position: absolute; z-index: 9; right: 0; text-transform: uppercase; text-align: center; height: 70px; width: 40px; line-height: 50px; background: #7ece36; border: 2px solid #ffffff;
+  border-radius: 30px;}
+.scroll-down .chevron {animation: 2s ease 0s normal none infinite running pulse; color: #fff; display: block; margin-top: 10px;}
+.chevron::before {border-style: solid; border-width: 0.25em 0.25em 0 0; content: ""; display: inline-block; height: 10px; position: relative;
+ -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); vertical-align: top; width: 10px;}
+.chevron.bottom::before {top: 0; -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); transform: rotate(135deg);}
+

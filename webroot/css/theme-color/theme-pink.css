@@ -1,0 +1,101 @@
+/* ------------------------------------------------
+  Project:   Hortech - Responsive HTML5 Template
+  Build:     Bootstrap 4.0.0
+  Author:    ThemeHt
+
+  NOTE: This is Color customizer stylesheet of template.
+------------------------------------------------ */
+
+/*--------------------------------------------------------------------
+ General
+--------------------------------------------------------------------*/ 
+::-moz-selection { background: #eb3570; color: #fff; text-shadow: none; }
+::-moz-selection { background: #eb3570; color: #fff; text-shadow: none; }
+::selection { background: #eb3570; color: #fff; text-shadow: none; }
+
+
+/*--------------------------------------------------------------------
+ Background Color
+--------------------------------------------------------------------*/ 
+.theme-bg,
+div.color-customizer a.opener,
+.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span,
+.fixed-header .navbar-nav .nav-link:hover span, .fixed-header .navbar-nav .nav-link:focus span, .fixed-header .navbar-nav .nav-item .nav-link.active span,
+.scroll-down,
+.btn::before,
+.btn.btn-theme,
+.progress-bar,
+.featured-item:hover,
+.skillBar,
+.portfolio-filter button.is-checked, .portfolio-filter button:hover,
+.portfolio-filter button::before,
+.testimonial-content p::after,
+.post:hover .post-desk,
+.social-icon li a:hover,
+.owl-carousel .owl-nav i:hover,
+#scroll-top .top,
+#ajaxloader,
+.navbar-toggler,
+.team-member .team-title,
+.sub-banner h1::before, .sub-banner h1::after,
+.widget-title::before, .widget-title::after,
+.sidebar-widget .widget-tags li a:hover,
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+.client-logo,
+#accordion .card-header a span,
+.portfolio-item a.popup,
+.video-btn a,
+.post .owl-nav button:hover span
+{ background: #eb3570;}
+
+
+/*--------------------------------------------------------------------
+ Color
+--------------------------------------------------------------------*/ 
+a, button, input, 
+h1,
+.text-theme,
+h2 span,
+.btn,
+.featured-item .featured-icon,
+.post:hover .post-desk .post-date,
+.media-icon li i,
+.media-icon li a:hover,
+.testimonial h6,
+#scroll-top .top:hover,
+.featured-item.style-2:hover .featured-icon i, .featured-item.style-2:hover h4,
+.breadcrumb-item.active, .breadcrumb-item a:hover,
+#accordion .card.active a, #accordion .card a:hover,
+.theme-bg .btn:hover span,
+.post .owl-nav span
+{color: #eb3570;}
+
+
+/*--------------------------------------------------------------------
+ Border Color
+--------------------------------------------------------------------*/ 
+.btn,
+.btn:hover, .btn:focus,
+.btn.btn-theme,
+.contact-box,
+.contact-info,
+#scroll-top .top:hover,
+.form-control:focus,
+.portfolio-item .portfolio-hover::before,
+.portfolio-item .portfolio-hover::after,
+.featured-item.style-2:hover
+{border-color: #eb3570;}
+
+
+/*--------------------------------------------------------------------
+ Background Rgba
+--------------------------------------------------------------------*/
+.fixed-header .navbar-nav .nav-link::before, .fixed-header .navbar-nav .nav-item .nav-link.active::before
+{background: rgba(235, 53, 112, 0.5);}
+
+
+@media (max-width: 767px){
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:focus, .navbar-nav .nav-item a:hover
+{ background: #eb3570;}
+.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{color: #eb3570 !important;}
+}
