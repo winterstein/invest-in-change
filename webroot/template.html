@@ -120,11 +120,14 @@
 						</h3>
 						<div class="wow fadeInLeft" href="#" data-wow-duration="1s">
 							<h1 class="text-white mb-3"><span class="text-theme">Join</span> the Mailing List</h1>
-							<form id="contact-form" method="post" action="https://profiler.good-loop.com/form/invest-in-change.com" role="form">
+							<form id="contact-form" method="post" 
+								action="https://profiler.good-loop.com/form/invest-in-change.com" role="form">
 								<input type='hidden' name='notify' value='daniel@good-loop.com' />
-								<div class="form-group form-inline">
-									<input type="email" name="email" class="form-control" placeholder="Type Email" 
-										required="required" data-error="Valid email is required.">
+								<div class="row">
+									<div class="col">
+										<input type="email" name="email" class="form-control" placeholder="Type Email" 
+											required="required" data-error="Valid email is required.">
+									</div>
 									<button class="btn" type="submit">Sign up</button>
 								</div>
 							</form>
@@ -162,7 +165,7 @@
 							</div>
 						</div>
 					</div> -->
-					<div class="col-lg-12 col-md-12 py-5 xs-pb-0">
+					<div class="col-lg-12 col-md-12 py-1 xs-pb-0">
 						<div class="section-title mb-2">
 							<h2 class="mt-1 mb-2">Welcome to Invest
 								<span>in Change </span>
@@ -200,10 +203,6 @@
 
 		<!--about us end-->
 
-		<!-- TODO use jerbil
-			$contents
-		-->
-
 		<!-- CTA start-->
 
 		<section id="about">
@@ -228,6 +227,55 @@
 		</section>
 
 		<!-- CTA end-->
+
+
+		<!--testimonial start-->
+
+		<section id="testimonial" class="parallax dark-bg text-center" style="background: url(images/bg/05.jpg) no-repeat 0 0; background-size: cover;"
+		 data-overlay="8">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-10 ml-auto mr-auto">
+						<div class="owl-carousel owl-carousel-2 owl-theme">
+							<div class="item">
+								<div class="testimonial">
+									<div class="testimonial-content">
+										<p>Humanity's greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.</p>
+									</div>
+									<div class="testimonial-avatar">
+										<div class="testimonial-img">
+											<img class="img-center" src="images/thumbnail/01.png" alt="">
+										</div>
+										<div class="testimonial-caption">
+											<h6>Bill Gates</h6>
+											<label>- Entrepreneur and Philanthropist</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimonial">
+									<div class="testimonial-content">
+										<p>We can't leave it up to politicians, even good ones need support from business to drive change.</p>
+									</div>
+									<div class="testimonial-avatar">
+										<div class="testimonial-img">
+											<img class="img-center" src="images/thumbnail/02.png" alt="">
+										</div>
+										<div class="testimonial-caption">
+											<h6>Richard Branson</h6>
+											<label>- Entrepreneur</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--testimonial end-->
 
 
 		<!--accordian start-->
@@ -360,55 +408,6 @@
 		<!--accordian start-->
 
 
-		<!--testimonial start-->
-
-		<section id="testimonial" class="parallax dark-bg text-center" style="background: url(images/bg/05.jpg) no-repeat 0 0; background-size: cover;"
-		 data-overlay="8">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-10 ml-auto mr-auto">
-						<div class="owl-carousel owl-carousel-2 owl-theme">
-							<div class="item">
-								<div class="testimonial">
-									<div class="testimonial-content">
-										<p>Humanity's greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.</p>
-									</div>
-									<div class="testimonial-avatar">
-										<div class="testimonial-img">
-											<img class="img-center" src="images/thumbnail/01.png" alt="">
-										</div>
-										<div class="testimonial-caption">
-											<h6>Bill Gates</h6>
-											<label>- Entrepreneur and Philanthropist</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimonial">
-									<div class="testimonial-content">
-										<p>We can't leave it up to politicians, even good ones need support from business to drive change.</p>
-									</div>
-									<div class="testimonial-avatar">
-										<div class="testimonial-img">
-											<img class="img-center" src="images/thumbnail/02.png" alt="">
-										</div>
-										<div class="testimonial-caption">
-											<h6>Richard Branson</h6>
-											<label>- Entrepreneur</label>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!--testimonial end-->
-
-
 		<!-- resources -->
 		<section id="resources" class="">
 			<div class="container">
@@ -428,10 +427,10 @@
 						<h4>UK</h4>
 						<ul>							
 							<li>
-								<a href=''> TODO Mustard Seed</a>
+								<a href='https://mustardseed.vc/'>Mustard Seed</a> Venture capital, investing in high growth impact.
 							</li>							
 							<li>
-								<a href='http://www.socialinvestmentscotland.com/'>SIS (Social Investment Scotland)</a>, including SIS Ventures. 
+								<a href='https://www.socialinvestmentscotland.com/'>SIS (Social Investment Scotland)</a>, including SIS Ventures. 
 								Investment and loans for Scottish based companies.
 							</li>
 							<li>
@@ -601,6 +600,10 @@
 	<script src="js/form.js"></script>
 	<!-- inject js end -->
 
+		<!-- 
+			TODO use jerbil
+			$contents
+		-->
 </body>
 
 </html>
