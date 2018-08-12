@@ -91,7 +91,7 @@ h2 span,
  Background Rgba
 --------------------------------------------------------------------*/
 .fixed-header .navbar-nav .nav-link::before, .fixed-header .navbar-nav .nav-item .nav-link.active::before
-{background: rgba(126, 206, 54, 0.5);}
+{background: rgba(200,51,18, 0.5);}
 
 
 @media (max-width: 767px){
