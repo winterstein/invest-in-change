@@ -9,9 +9,9 @@
 /*--------------------------------------------------------------------
  General
 --------------------------------------------------------------------*/ 
-::-moz-selection { background: #7ece36; color: #fff; text-shadow: none; }
-::-moz-selection { background: #7ece36; color: #fff; text-shadow: none; }
-::selection { background: #7ece36; color: #fff; text-shadow: none; }
+::-moz-selection { background: #c83312; color: #fff; text-shadow: none; }
+::-moz-selection { background: #c83312; color: #fff; text-shadow: none; }
+::selection { background: #c83312; color: #fff; text-shadow: none; }
 
 
 /*--------------------------------------------------------------------
@@ -46,7 +46,7 @@ div.color-customizer a.opener,
 .portfolio-item a.popup,
 .video-btn a,
 .post .owl-nav button:hover span
-{ background: #7ece36;}
+{ background: #c83312;}
 
 
 /*--------------------------------------------------------------------
@@ -68,7 +68,7 @@ h2 span,
 #accordion .card.active a, #accordion .card a:hover,
 .theme-bg .btn:hover span,
 .post .owl-nav span
-{color: #7ece36;}
+{color: #c83312;}
 
 
 /*--------------------------------------------------------------------
@@ -84,7 +84,7 @@ h2 span,
 .portfolio-item .portfolio-hover::before,
 .portfolio-item .portfolio-hover::after,
 .featured-item.style-2:hover
-{border-color: #7ece36;}
+{border-color: #c83312;}
 
 
 /*--------------------------------------------------------------------
@@ -96,6 +96,6 @@ h2 span,
 
 @media (max-width: 767px){
 .navbar-nav .nav-item a.active, .navbar-nav .nav-item a:focus, .navbar-nav .nav-item a:hover
-{ background: #7ece36; }
-.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{color: #7ece36 !important;}
+{ background: #c83312; }
+.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{color: #c83312 !important;}
 }

@@ -68,7 +68,7 @@ h2{font-size: 30px; line-height: 40px;}
 
 /*Navigation*/
 .navbar {justify-content: flex-end; text-align: left !important;}
-.navbar-toggler {background: #7ece36; border-radius: 5px; margin-top: 5px;}
+.navbar-toggler {background: #c83312; border-radius: 5px; margin-top: 5px;}
 .navbar-toggler-icon{height: inherit; width: inherit;}
 .navbar-toggler-icon:before{content: ""; font-family: "themify"; font-style: normal; font-weight: normal; text-decoration: inherit;
 color: #ffffff; font-size: 21px;}
@@ -76,8 +76,8 @@ color: #ffffff; font-size: 21px;}
 .navbar-collapse{position: absolute; left: 0; width: 100%; background: #ffffff; border: none; padding: 0; top: 50px;}
 .navbar-nav .nav-item{margin: 0 0 1px;}
 .navbar-nav .nav-item a{font-size: 14px; padding: 10px 15px 10px 30px !important; color: #151515}
-.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:focus, .navbar-nav .nav-item a:hover{color: #ffffff; background: #7ece36;}
-.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{background: #ffffff !important; color: #7ece36 !important;}
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:focus, .navbar-nav .nav-item a:hover{color: #ffffff; background: #c83312;}
+.navbar-nav .nav-link:hover span, .navbar-nav .nav-link:focus span, .navbar-nav .nav-item .nav-link.active span{background: #ffffff !important; color: #c83312 !important;}
 .navbar-nav .nav-link::before, .navbar-nav .nav-item .nav-link.active::before{left: 10px;}
 
 /*Banner*/

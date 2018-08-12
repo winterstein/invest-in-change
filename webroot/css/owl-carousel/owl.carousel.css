@@ -183,7 +183,7 @@
 .owl-carousel .owl-controls .owl-dot { display: inline-block;}
 .owl-carousel .owl-dots {line-height: 0; display: inline-block; position: absolute; bottom:-10px; left: 0; width: 100%; cursor: pointer; text-align: center; }
 .owl-carousel.owl-theme .owl-dots .owl-dot span {background: #151515; border-radius: 10px; display: inline-block; width:20px; height:7px; margin: 0px 3px; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; cursor: pointer; }
-.owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#7ece36; width:30px;}
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#c83312; width:30px;}
 
 
 /* Arrow */ 
@@ -203,5 +203,5 @@
 .client-logo .owl-carousel .owl-nav .owl-next,
 .post .owl-carousel .owl-nav .owl-next{right:0;}
 
-.post .owl-nav span {background: #fff; color: #7ece36; display: inline-block; font-size: 40px; height: 40px; line-height: 34px; width: 40px;}
-.post .owl-nav button:hover span {background: #7ece36; color: #ffffff;}
+.post .owl-nav span {background: #fff; color: #c83312; display: inline-block; font-size: 40px; height: 40px; line-height: 34px; width: 40px;}
+.post .owl-nav button:hover span {background: #c83312; color: #ffffff;}
