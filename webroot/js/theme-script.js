@@ -51,7 +51,7 @@ $.fn.exists = function () {
 --------------------------------------*/
 function preloader() {
    $("#load").fadeOut();
-   $('#ht-preloader').delay(0).fadeOut('slow');
+//    $('#ht-preloader').delay(0).fadeOut('slow'); No preloader - DW
 };
 
 /*------------------------------------

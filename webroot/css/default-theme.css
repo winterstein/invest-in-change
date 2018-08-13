@@ -317,7 +317,7 @@ left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: transl
 .testimonial-content{font-size: 20px; color: #ffffff; line-height: 30px; font-weight: 400; font-style: italic;}
 .testimonial-avatar{margin-top: 50px;}
 .testimonial .testimonial-img {display: inline-block; margin-right: 15px;}
-.testimonial .testimonial-img img {border-radius: 100%; overflow: hidden; border: 2px solid #ffffff;}
+.testimonial .testimonial-img img {border-radius: 100%; overflow: hidden; border: 2px solid #ffffff; width:200px;}
 .testimonial .testimonial-caption {display: inline-block; vertical-align: middle; text-align: left;}
 .testimonial h6{color: #c83312; font-weight: bold; text-transform: uppercase;}
 .theme-bg .testimonial h6{color: #ffffff}
