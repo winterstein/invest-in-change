@@ -17,7 +17,7 @@ if [[ $(printf $HOSTNAME) = 'robinson' ]]; then
 	$GIT_SHORTHAND_J gc --prune=now
 	$GIT_SHORTHAND_J pull origin master
 	$GIT_SHORTHAND_J reset --hard FETCH_HEAD
-
+fi
 #/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/
 # paths as for robinson server
 printf "\nRendering website ...\n"
