@@ -78,7 +78,8 @@ h2 span{color: #c83312; font-weight: bold;}
     Background color
 ------------------------*/
 .white-bg{background:#ffffff;}
-.dark-bg{background:#151515;}
+/* .dark-bg{background:#151515;} */
+.dark-bg{background:#51808a;}
 .grey-bg{background:#fdfdfd;}
 .theme-bg{background:#c83312;}
 .dark-bg a{color: #ffffff;}
@@ -106,7 +107,7 @@ h2 span{color: #c83312; font-weight: bold;}
 .btn.btn-theme{background: #c83312; color: #ffffff; border-color: #c83312;}
 .btn:before {content: ''; display: block; position: absolute; background: #c83312; width: 0%; height: 75%; border-radius: 5px;
 left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); transition: all .5s;
--webkit-transition: all .5s; -moz-transition: all .5s;}
+-webkit-transition: all .5s; -moz-transition: all .5s; opacity: 0.25;}
 .btn:hover:before, .btn:focus:before {width: 90%; height: 75%;}
 .btn:hover, .btn:focus{color: #ffffff; background: none !important; border: 1px solid #c83312; box-shadow: none !important;}
 .btn-outline-light{border-color: #ffffff !important; color: #ffffff !important}
