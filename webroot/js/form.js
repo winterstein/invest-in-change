@@ -6,6 +6,7 @@ $(function() {
 	}, 100);
 });
 
+// TODO refactor into a standard Profiler.js code blob
 function formWiring() {
 	$('form').not('.wired').each(function() {
 		// NB: must use function not () => 
@@ -30,6 +31,7 @@ function formWiring() {
 			$("input,select,textarea", $f).each(function(){
 				data[$(this).attr('name')] = $(this).val();
 			});
+			data.referrer = document.referrer; // how did they reach this page?
 			// Profiler needs: controller (can usually get from referer, but hey lets be safe)
 			if ( ! data.controller) data.controller = window.location.host;
 			$.ajax({
