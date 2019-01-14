@@ -58,6 +58,16 @@ function formWiring() {
  * Can we copy the validation script too?
  */
 function validateForm($f) {
+	var msg = $("textarea[name=message]").val();
+	if (msg && msg.indexOf('http') !== -1) {
+		$('.help-message').text("You cannot include url links. Sorry - this is to prevent spam.");
+		return false;
+	}
+	let name = $("input[name=name]").val();
+	if (name && name.indexOf('http') !== -1) {
+		$('.help-name').text("Invalid name");
+		return false;
+	}
 	return true;
 }
 
