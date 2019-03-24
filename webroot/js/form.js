@@ -23,13 +23,15 @@ function formWiring() {
 				return;
 			}
 			e.preventDefault();
+			// includes no urls! (anti spam)
 			let ok = validateForm($f);
 			if ( ! ok) {
 				return;
 			}
 			var data = {};
-			$("input,select,textarea", $f).each(function(){
-				data[$(this).attr('name')] = $(this).val();
+			$("input,select,textarea", $f).each(function() {
+				let v = $(this).val();
+				data[$(this).attr('name')] = v;
 			});
 			data.referrer = document.referrer; // how did they reach this page?
 			// Profiler needs: controller (can usually get from referer, but hey lets be safe)
