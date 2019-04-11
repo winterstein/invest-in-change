@@ -287,7 +287,7 @@ function run_post_publish_tasks {
         $PSSH "cd /home/winterwell/jerbil && git gc --prune=now && git pull origin master && git reset --hard FETCH_HEAD"
         printf "\nPrepping Jerbil for a one-time task... \n"
         $PSSH "rm /home/winterwell/invest-in-change/config/jerbil.properties"
-        $PSSH 'printf "server=false\npreview=false\nexit=true >> /home/winterwell/invest-in-change/config/jerbil.properties"'
+        $PSSH 'printf "server=false\npreview=false\nexit=true" >> /home/winterwell/invest-in-change/config/jerbil.properties'
         printf "\nRendering Site using Jerbil ...\n"
         $PSSH "java -jar /home/winterwell/jerbil/jerbil-all.jar /home/winterwell/invest-in-change"
     fi
