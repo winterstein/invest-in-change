@@ -299,10 +299,8 @@ function run_post_publish_tasks {
 printf "\nCreating Target List\n"
 create_target_list
 image_optimisation
-convert_less_files
 minify_css
 preserve_items
-pre_sync
 printf "\nSyncing $PROJECT to $TARGETS\n"
 sync_whole_project
 restore_preserved
