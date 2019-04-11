@@ -291,7 +291,7 @@ function run_post_publish_tasks {
         printf "\nRendering Site using Jerbil ...\n"
         $PSSH "java -jar /home/winterwell/jerbil/jerbil-all.jar /home/winterwell/invest-in-change"
     fi
-
+}
 
 ##########################################
 ### Section 09: Performing the Actual Publish
