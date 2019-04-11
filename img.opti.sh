@@ -3,7 +3,7 @@
 ### Optimise Images
 #
 
-IMG_DIR='webroot/img'
+IMG_DIR=(webroot/img webroot/images)
 
 ## Create new array files
 touch $IMG_DIR/newjpgarray.txt

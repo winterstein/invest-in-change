@@ -1,1 +1,3 @@
 c33452953f195fd335921e5d21e14ddb  webroot/img/invest-logo.png
+110e02d9fd6370e0bea42c804ac11f7e  webroot/img/green-shoot-small-logo.png
+635543e26d09276251ecb40acbb04ba2  webroot/img/invest-logo-square.png
