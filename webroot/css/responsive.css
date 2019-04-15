@@ -62,8 +62,8 @@ h2{font-size: 30px; line-height: 40px;}
 
 /*Header*/
 .site-header + .fullscreen-banner {margin-bottom: -60px; top: -60px;}
-#header-wrap{padding: 10px 0;}
-.logo {position: absolute; z-index: 99;}
+#header-wrap{padding-bottom: 10px;}
+.logo {z-index: 99;}
 .logo img{width: 120px;}
 
 /*Navigation*/
