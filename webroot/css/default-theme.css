@@ -289,11 +289,11 @@ left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: transl
 #accordion .card-header {background: none; border:none;}
 #accordion .card-header a{font-weight: 600; color: #151515}
 #accordion .card.active a, #accordion .card a:hover{color: #c83312}
-#accordion .card-header {padding: 30px 30px 30px 70px; position: relative;}
+#accordion .card-header {padding: 30px 30px 30px 60px; position: relative;}
 #accordion .card-body {padding-left: 60px; padding-top: 10px;}
 #accordion .card-header a span:after,
 #accordion .card-header a span:before,
-#accordion .card-header a span {content: ''; position: absolute; left: 20px; top: 50%; width: 36px; height: 36px; background: #c83312; border-radius: 50%;}
+/* #accordion .card-header a span {content: ''; position: absolute; left: 20px; top: 50%; width: 36px; height: 36px; background: #c83312; border-radius: 50%;} */
 #accordion .card-header a span:before,
 #accordion .card-header a span:after {width: 10px; height: 1px; background: #ffffff; top: 50%; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%)}
 #accordion .card-header a span:before {-webkit-transform: translate(-50%) rotate(90deg); transform: translate(-50%) rotate(90deg)}
