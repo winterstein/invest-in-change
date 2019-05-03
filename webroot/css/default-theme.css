@@ -65,6 +65,7 @@ section{padding: 80px 0;}
 h2 span{color: #c83312; font-weight: bold;}
 .theme-bg h2 span{color: #151515;}
 .section-title{margin-bottom: 50px;}
+.text-transform-unset { text-transform: unset !important; }
 
 /* ------------------------
     Text color
