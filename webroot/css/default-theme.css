@@ -289,7 +289,7 @@ left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: transl
 #accordion .card-header {background: none; border:none;}
 #accordion .card-header a{font-weight: 600; color: #c83312}
 #accordion .card.active a, #accordion .card a:hover{color: #c83312}
-#accordion .card-header {padding: 30px 30px 30px 60px; position: relative;}
+#accordion .card-header {padding: 20px 30px 10px 60px; position: relative;}
 #accordion .card-body {padding-left: 60px; padding-top: 10px;}
 #accordion .card-header a span:after,
 #accordion .card-header a span:before,
