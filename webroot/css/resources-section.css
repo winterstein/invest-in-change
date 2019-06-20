@@ -43,3 +43,8 @@ div.panel.show {
 .highlight-text:focus {
     color: white;
 }
+
+h5 {
+    margin-top: 2vh !important;
+    margin-bottom: 2vh !important;
+}
