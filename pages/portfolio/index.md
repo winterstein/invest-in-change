@@ -3,6 +3,7 @@
 
 See mailing-lists:
 
+August ??
 July https://us20.admin.mailchimp.com/campaigns/show?id=282915
 May https://us20.admin.mailchimp.com/campaigns/show?id=179311
 April https://us20.admin.mailchimp.com/campaigns/show?id=142607
