@@ -21,4 +21,4 @@ fi
 #/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/
 # paths as for robinson server
 printf "\nRendering website ...\n"
-java -jar ~/jerbil/jerbil-all.jar ~/invest-in-change
+java -jar ~/winterwell/jerbil/jerbil-all.jar ~/invest-in-change
