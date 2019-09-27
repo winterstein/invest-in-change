@@ -50,7 +50,7 @@ const parseCompanies = companies => {
 const handleItemClick = e => {
     console.log(e.target.id);
     const currentUrl = location.pathname;
-    window.location.assign(currentUrl + `portfolio-details.html?id=${e.target.id}`)
+    window.location.assign(`https://invest-in-change.com/portfolio/portfolio-details.html?id=${e.target.id}`)
 }
 
 $(document).ready(() => {
