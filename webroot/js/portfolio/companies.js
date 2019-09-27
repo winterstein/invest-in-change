@@ -191,6 +191,7 @@ export const companies = [
         "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/dec2c168-d383-40f9-96c3-28c38b78686e.png",
         "name": "SOLAR FOR SCHOOLS: Fund clean energy ownership",
         "location": "England and Wales",
+        "region": "UK",
         "investType": "Investment Type: Bond offer with a return of 5% paid annually",
         "taxRelief": "Tax Relief: ISA",
         "endDate": "Campaign end-date: 30 June, 2019",
@@ -234,5 +235,111 @@ export const companies = [
         "impactTypeLink": "https://sustainabledevelopment.un.org/sdg12",
         "desc": "Description: \"Smart Yields uses big data insights for small farmers in a subscription model to get farmers online quickly, simply and cost effectively. It uses low-cost state of the art technology to provide actionable insights for farms, researchers and their communities in an integrated farm-to-screen solution.”",
         "links": [{"Campaign Link": "https://republic.co/smartyields"}, {"Website Link": "https://smartyields.com/"}]
+    },
+    {
+  "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/1060e3ff-cac8-4c9d-bd7b-7d1606dc4d16.jpeg",
+  "name": "TrailFork: Invest in a sustainably packaged, healthy outdoor adventure food brand",
+  "location": "Broomfield",
+  "region": "Colorado",
+  "investType": "Investment Type: Equity; Raising $34,000 ($1,000 minimum, conversion discount: 20%)",
+  "taxRelief": "Tax Relief: N/A",
+  "endDate": "Campaign end-date: 27 September, 2019",
+  "impactType": "Impact Type: Responsible Consumption and Production (UN Goal #12)\n\nDescription: Still in its Seed stage, TrailFork is tapping into the $412 billion travel adventure market with a healthy and convenient dehydrated food product that comes in compostable packaging--sold wholesale, on their website, and on Amazon. They launched in 10 REI locations in 2018, which grew to 47 in 2019, and other than a few outliers, overall consumers seem to love the product according to Amazon reviews. They doubled their total 2018 revenue in the first half of 2019 alone and are estimating 30k unit sales for 2019--though their breakeven point is 141k units. ",
+  "impactTypeLink": "https://sustainabledevelopment.un.org/sdg12",
+  "desc": "Contact email: hey@mytrailfork.com // Website Link",
+  "links": [
+    {
+      "12": "https://sustainabledevelopment.un.org/sdg12"
+    },
+    {
+      "hey@mytrailfork.com": "mailto:hey@mytrailfork.com"
+    },
+    {
+      "Website Link": "https://mytrailfork.com"
     }
+  ]
+},
+{
+  "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/53b9a42c-f2c5-4203-ba34-257c01e2d9cd.jpg",
+  "name": "The Town Kitchen: Fund a B2B, chef crafted meal company that employs at-risk youth",
+  "location": "Oakland",
+  "region": "California",
+  "investType": "Investment Type: Convertible equity; Raising up to $1,070,000, ($100 minimum, 20% discount)",
+  "taxRelief": "Tax Relief: N/A",
+  "endDate": "Campaign end-date: 1 November, 2019",
+  "impactType": "Impact Type: Reduced Inequalities (UN Goal #10)",
+  "impactTypeLink": "https://sustainabledevelopment.un.org/sdg9",
+  "desc": "Description: The Town Kitchen offers chef crafted corporate catering in the Bay Area in California. The company experienced rapid growth over the past years and had a revenue of $1.1 M in 2018. The Town Kitchen is a Public Benefit Corporation and follows a deeply rooted social mission. This includes working with at-risk youth, i.e. young adults in the foster and re-entry populations, who usually lack access to training programs and meaningful jobs that can develop their professional and personal skills. The Town Kitchen offers them this training and allows them to gain work experience while also sourcing ingredients and food products from local women and minority owned businesses. The company is seeking investment to expand its operations and serve a larger number of customers.",
+  "links": [
+    {
+      "10": "https://sustainabledevelopment.un.org/sdg10"
+    },
+    {
+      "Campaign Link (via Republic)": "https://republic.co/the-town-kitchen"
+    },
+    {
+      "Website Link": "https://www.thetownkitchen.com/"
+    }
+  ]
+},
+{
+  "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/735cb118-62ba-47f8-acd0-31d336588eb7.jpg",
+  "name": "American Ag Energy, Inc: Fund sustainable agriculture with high-tech greenhouses.",
+  "location": "Boston",
+  "region": "Massachusetts",
+  "investType": "Investment Type: Equity; Raising up to $1,500,000 with a pre-money valuation of $12,000,000 ($25,000 minimum)",
+  "taxRelief": "Tax Relief: N/A",
+  "endDate": "Campaign end-date: 30 September, 2019",
+  "impactType": "Impact Type: Responsible Consumption and Production (UN Goal #12)",
+  "impactTypeLink": "https://sustainabledevelopment.un.org/sdg12",
+  "desc": "Description: American AG Energy, a Controlled Environment Agriculture company uses combined heat and power generation within greenhouses to grow vegetables more sustainably. They’re working to ensure year-round reliable revenues with socially and environmentally responsibly food production through their high-tech greenhouses in the Northeast USA. They project an EBITDA of over $11.6 million by 2020 (with a 43% EBITDA margin) and almost $13.5 million by (with a 45% EBITDA margin) by 2025. With a high demand for Lettuce and Tomatoes in the Northeast  and all permits in-hand, they are planning to finance, construct, and operate the Benin, NH facility (pictured above) immediately.",
+  "links": [
+    {
+      "Campaign Link (Crowdfunder)": "https://www.crowdfunder.com/american-ag-energy-inc-/invest#company-partners"
+    },
+    {
+      "Website Link": "https://www.americanagenergy.com/home.html"
+    }
+  ]
+},
+{
+  "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/edbbae7f-ce28-4d32-8003-410d65cbd9d3.png",
+  "name": "MAMOQ: Fund an online clothing marketplace for renewable, ethically-sourced fashion",
+  "location": "London",
+  "region": "UK",
+  "investType": "Investment Type:  Equity; Raising £400,000 with a pre-money valuation of £2,000,000",
+  "taxRelief": "Tax Relief: SEIS/EIS eligible",
+  "endDate": "Campaign end-date: end of November 2019",
+  "impactType": "Impact Type: Sustainable Cities and Communities (UN Goal #12)",
+  "impactTypeLink": "https://sustainabledevelopment.un.org/sdg12",
+  "desc": "Description: MAMOQ is on a mission to fundamentally shift fashion buying behaviour with its marketplace built for well-made, quality fashion. MAMOQ, curated with over 90 independent fashion labels, has earned £100,000+ in GMV and it receives 12,000+ unique site visitors monthly. After successfully building out the supply side of MAMOQ, and a stable, automated platform, this investment raise will be used to increase reach and scale, grow its customer base, and expand into new strategic verticals and markets.   ",
+  "links": [
+    {
+      "Madeline@mamoq.com": "mailto:Madeline@mamoq.com"
+    },
+    {
+      "Website Link": "https://www.mamoq.com"
+    }
+  ]
+},
+{
+  "logo": "https://gallery.mailchimp.com/08707f64623756d8a0ef4c72d/images/8eef054c-7fee-4806-a993-f47f66bf9526.png",
+  "name": "Egni Co-op in Wales: Fund a community solar power project",
+  "location": "Swansea",
+  "region": "UK",
+  "investType": "Investment Type: Share offer, £750,000 (£50 minimum and £100,000 maximum)",
+  "taxRelief": "Tax Relief: N/A",
+  "endDate": "Campaign end-date: Not disclosed",
+  "impactType": "Impact Type: Affordable and Clean Energy (UN Goal #7)",
+  "impactTypeLink": "https://sustainabledevelopment.un.org/sdg7",
+  "desc": "Description: Egni Co-op is a not-for-profit, community owned enterprise and part of a larger global sustainable energy movement (with over 30,000 people investing in this sector in 222 community groups in the UK alone). Having secured the Feed in Tariff (FiT) subsidy for rooftop solar panels on over 250 sites in Wales, Egni Co-op plans to install solar panels in a rolling installation programme through 31 March, 2020. Egni has already secured £300,000 from existing community members, and they project a 4% return on investments (anticipating a target cumulative return of £1,520 for every £1,000 invested over a 20 year period).",
+  "links": [
+    {
+      "Information PDF Link": "https://egni.coop/wp-content/uploads/2019/05/EGNIShareOfferDoc.ENG_.pdf"
+    },
+    {
+      "Website Link": "http://www.egni.coop"
+    }
+  ]
+}
 ];

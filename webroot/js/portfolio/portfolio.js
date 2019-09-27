@@ -15,24 +15,6 @@ const generateCardLinks = links => {
     return renderedLinks;
 };
 
-const formatCompanyName = name => {
-    const separateName = name.split(': ');
-    return `<h3><span class="red-text">${separateName[0]}</span></h3>
-            <h4><span> ${separateName[1]}</span></h4>`;
-};
-
-const formatInvestType = (type, link) => {
-    const splitString = type.split('(');
-    return link ? `<p>${splitString[0]}<a href="${link}">(${splitString[1]}</a></p>`
-        : `<p>${type}</p>`;
-};
-
-const itemHighlighter = item => {
-    const itemArray = item.split(':');
-    return `<p><span style="font-weight: bold">${itemArray[0]}</span>: ${itemArray[1]}</p>`
-};
-{/* <img class="img-fluid w-100" src=${card.logo} alt=""></img> */}
-
 const getRegionCategory = card => {
     if (card.region === 'UK') { return 'UK' }
     else if (states.includes(card.region)) { return 'US' }
@@ -51,6 +33,7 @@ const generateCompanyCard = card => {
             </div>
             <h3>${card.name}</h3>
             <h4>${card.location}, ${card.region}</h4>
+            </br>
         </div>
     </div>`
     );
@@ -67,7 +50,7 @@ const parseCompanies = companies => {
 const handleItemClick = e => {
     console.log(e.target.id);
     const currentUrl = location.pathname;
-    window.location.replace(currentUrl + `/portfolio-details.html?id=${e.target.id}`)
+    window.location.assign(currentUrl + `/portfolio-details.html?id=${e.target.id}`)
 }
 
 $(document).ready(() => {

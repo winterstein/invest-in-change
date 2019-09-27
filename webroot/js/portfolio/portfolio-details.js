@@ -1,11 +1,5 @@
 import { companies } from './companies.js';
 
-// const query = new URLSearchParams(window.location.search);
-// 	if (query.get('tags') && query.get('tags').length) {
-// 		const queryArr = query.get('tags').split(',');
-// 		types = queryArr;
-// 	}
-
 const getCompanyObjFromId = id => {
     return companies.filter(company => {
         if (company.name === id) { return company }
@@ -18,7 +12,7 @@ const generateLinkElements = links => {
         const linkKey = Object.keys(link);
         return `<li class="list-inline-item">
             <a id="company-link" href="${link[linkKey]}">
-                <p>${linkKey}</p>
+                <h5>${linkKey}</h5>
             </a>
         </li>`
     })
@@ -46,7 +40,7 @@ const companyCard = company => {
                   <div class="social-icon">
                     <span></span>
                   <ul class="list-inline mb-0">
-                    ${generateLinkElements(company.links)}
+                    ${generateLinkElements(company.links).join(' - ')}
                   </ul>
                 </div>`
                 )

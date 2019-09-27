@@ -23,6 +23,7 @@
 <link href="../css/base.css" rel="stylesheet" type="text/css" />
 <link href="../css/default-theme.css" rel="stylesheet" type="text/css" />
 <link href="../css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="../css/portfolio/portfolio-details.css" rel="stylesheet" type="text/css" />
 
 <!-- inject css end -->
 
@@ -59,13 +60,8 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#portfolio">
-                      <span>portfolio</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact-us">
-                      <span>Contact us</span>
+                    <a class="nav-link active" href="#company-details">
+                      <span>Company Details</span>
                     </a>
                   </li>
                 </ul>
@@ -86,6 +82,7 @@
 <section class="halfscreen-banner sub-banner dark-bg o-hidden text-center p-0" 
     data-overlay="2"
     style="background: url(../img/earth-round.jpg) no-repeat center center; background-size: cover;"
+    id="portfolio-details-hero"
     >
   <div class="banner-content">
     <div class="container">
@@ -113,13 +110,15 @@
 
 <!--portfolio start-->
 
-<section>
+<section id="company-details">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="left-sidebar">
           <div class="portfolio">
-            <img class="img-center w-100" id="company-img" src="images/portfolio/large/02.jpg" alt="">
+            <div class="img-container">
+                <img class="img-center w-100" id="company-img" src="images/portfolio/large/02.jpg" alt="">
+            </div>
             <div class="portfolio-details mt-4">
               <div class="row" id="card-container">
                 
@@ -140,19 +139,32 @@
 <!--body content end--> 
 
 
-<!--footer start-->
+			<!--footer start-->
 
-<footer class="theme-bg py-3">
-  <div class="container">
-    <div class="row text-center text-white">
-      <div class="col-md-12">
-        <span>&copy; 2018 Hortech All Rights Reserved</span>
-      </div>
-    </div>
-  </div>
-</footer>
+			<footer class="theme-bg py-3">
+				<div class="container">
+					<div class="row text-center text-white">
+						<div class="col-md-12">
+							<div><small>
+									Disclaimer: Invest in Change, Good-Loop Ltd, and agents of Invest In Change are not
+									financial advisors or brokers.
+									We connect purposeful investments with purpose-driven investors
+									We do not offer any kind of financial or legal advice, are not qualified to provide
+									such
+									advice,
+									and nothing seen on this site or in our communication should be taken as such, or as
+									an
+									endorsement.
+								</small></div>
+							<span>&copy; 2018 Good-Loop Ltd, All Rights Reserved. Invest-in-Change&trade; and
+								Good-Loop&trade;
+								are owned by Good-Loop Ltd.</span>
+						</div>
+					</div>
+				</div>
+			</footer>
 
-<!--footer end-->
+			<!--footer end-->
 
 <!--back-to-top start-->
 
