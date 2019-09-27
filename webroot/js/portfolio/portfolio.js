@@ -44,8 +44,8 @@ const generateCompanyCard = card => {
     const linkElements = generateCardLinks(card.links);
     const regionCategory = getRegionCategory(card);
     return (
-        `<div class="grid-item ${regionCategory}">
-        <div class="portfolio-item">
+        `<div class="grid-item  ${regionCategory}">
+        <div class="portfolio-item" id="${card.name}">
             <div class="img-fluid w-100">
             <img src="${card.logo}" class="card-logo" alt="company logo" />
             </div>
@@ -64,6 +64,12 @@ const parseCompanies = companies => {
     });
 };
 
+const handleItemClick = e => {
+    console.log(e.target.id);
+    const currentUrl = location.pathname;
+    window.location.replace(currentUrl + `/portfolio-details.html?id=${e.target.id}`)
+}
+
 $(document).ready(() => {
     parseCompanies(companies);
     $('.popup-gallery').append(generateCompanyCard(companies[0]));
@@ -74,4 +80,6 @@ $(document).ready(() => {
         $navRegionBtn.removeClass('shadow');
         $(this).addClass('shadow');
     })
+
+    $('.portfolio-item').on('click', handleItemClick);
 });
