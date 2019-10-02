@@ -370,7 +370,7 @@ function fullScreen() {
         $halfScreen.each(function () {
         var $elem = $(this),
         elemHeight = $window.height();
-        $elem.css('height', elemHeight / 2);
+        $elem.css('height', elemHeight / 4);
         });
     }
 };
