@@ -1,6 +1,8 @@
 
 # Portfolio of Companies
 
+TODO Does this conflict with portfolio.js code?
+
 See mailing-lists:
 
 August ??
