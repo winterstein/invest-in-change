@@ -1,5 +1,7 @@
 import { companies } from './companies.js';
 
+// TODO doc - how does this fit with portfolio.js??
+
 const getCompanyObjFromId = id => {
     return companies.filter(company => {
         if (company.name === id) { return company }

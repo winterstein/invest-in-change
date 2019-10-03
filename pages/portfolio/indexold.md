@@ -1,4 +1,6 @@
 
+# See portfolio.js and companies.js instead
+
 # Portfolio of Companies
 
 TODO Does this conflict with portfolio.js code?
