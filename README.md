@@ -1,4 +1,6 @@
 
 # Invest-in-Change
 
-Coming soon: Support for ethical investment and fund-raising.
+Support for ethical investment and fund-raising.
+
+How to update the site: 
