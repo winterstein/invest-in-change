@@ -55,7 +55,6 @@ const handleItemClick = e => {
 
 $(document).ready(() => {
     parseCompanies(companies);
-    $('.popup-gallery').append(generateCompanyCard(companies[0]));
 
     $navRegionBtn.on('click', function () {
         currentRegion = $(this).attr('id');
