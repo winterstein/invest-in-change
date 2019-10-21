@@ -48,7 +48,10 @@ function formWiring() {
 					// append to form
 					$f.append("<div class='onSuccess alert alert-success'>Thank you - details sent successfully.</div>");
 				}
-			});			
+			});
+			// optimistic response - stop repeat submits
+			let $btn = $('button[type=submit]', $f);
+			$btn.addClass("disabled").text($btn.text()+' ...');
 		});
 		// avoid repeat wiring
 		$f.addClass('wired');
