@@ -36,3 +36,7 @@ campaign-sitename: dorsetcommunityenergy.org.uk
 campaign-link: https://www.dorsetcommunityenergy.org.uk/share-offer-2019/
 website: https://www.dorsetcommunityenergy.org.uk/
 </section>
+
+TODO 
+Pawprint
+CHarge-My-Street https://www.ethex.org.uk/chargemystreet?mc_cid=f485e77cab&mc_eid=7e246b517c
