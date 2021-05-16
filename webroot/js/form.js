@@ -13,7 +13,7 @@ function formWiring() {
 		// 'cos they handle this differently.
 		const $f = $(this); 		
 		$f.addClass('wired');
-		const action = $f.attr('data-action');
+		const action = $f.attr('data-action') || $f.attr('action');
 		if ( ! action || action.indexOf('profiler.good-loop.com') === -1) return;
 		// add validator
 		$f.validator();
