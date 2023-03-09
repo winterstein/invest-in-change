@@ -131,7 +131,9 @@ left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: transl
 .site-header + .halfscreen-banner{margin-bottom: -85px; top:-85px;} 
 .site-header, header .container {position: relative; z-index: 999 !important;}
 .header-transparent{background: transparent;}
-#header-wrap{width: 100%;}
+#header-wrap{width: 100%;
+    background: #151515; /* seems OK?? */
+}
 #header-wrap.fixed-header {position: fixed; padding: 15px 0; top:0; left:0; width: 100%; z-index: 999 !important; background: #151515;}
 .logo img {height: 55px;}
 #header-wrap.fixed-header .logo img {height: 50px;}
