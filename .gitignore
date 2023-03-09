@@ -3,3 +3,5 @@ webroot/*.html
 boblog
 .idea/
 package-lock.json
+webroot/index.html
+webroot/portfolio/index.html
