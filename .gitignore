@@ -2,3 +2,4 @@ bob.log
 webroot/*.html
 boblog
 .idea/
+package-lock.json
