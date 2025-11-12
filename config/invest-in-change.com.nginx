@@ -27,8 +27,8 @@ server {
 
 	root /home/winterwell/invest-in-change/webroot;
 	index index.html;
-    access_log      /var/log/nginx/invest-in-change.com/access.log;
-    error_log       /var/log/nginx/invest-in-change.com/error.log;
+    access_log      /var/log/nginx/invest-in-change.com.access.log;
+    error_log       /var/log/nginx/invest-in-change.com.error.log;
 
 	
 	location / {
